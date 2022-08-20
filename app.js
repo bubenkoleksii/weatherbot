@@ -8,15 +8,6 @@ const {addUser} = require('./helpers/addUser');
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
-// Every day
-cron.schedule('59 5 * * *', async () => {
-  await weatherHandler.sendAll(bot);
-});
-
-cron.schedule('59 20 * * *', async () => {
-  await weatherHandler.sendAllTomorrow(bot);
-});
-
 // Bot start
 bot.start(async (ctx) => {
   const chatId = ctx.message.chat.id;
