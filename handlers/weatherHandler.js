@@ -1,13 +1,28 @@
 const {getAll} = require('../helpers/fileHelper');
 const {getHtml} = require("../helpers/getHtml");
 const {getWeatherNow, getWeatherInfoOnDay} = require("../helpers/getWeatherInfo");
-const {nowDateOptions, dayDateOptions} = require("../helpers/options");
+const {dateOptions} = require("../helpers/options");
 const {getWeatherString} = require("../helpers/getWeatherString");
 
 const currentDateString = (currentDate = new Date()) => {
-  const currentMonth = currentDate.getMonth() + 1 < 10 ? `0${currentDate.getMonth() + 1}` : currentDate.getMonth() + 1;
+  const month = currentDate.getMonth() + 1 < 10 ? `0${currentDate.getMonth() + 1}` : currentDate.getMonth() + 1;
+  const day = currentDate.getDate() < 10 ? `0${currentDate.getDate()}` : currentDate.getDate();
   
-  return `${currentDate.getFullYear()}-${currentMonth}-${currentDate.getDate()}`;
+  return `${currentDate.getFullYear()}-${month}-${day}`;
+}
+
+const getForOneDay = async (shift = 0, today = new Date()) => {
+  const currentDate = new Date(today);
+  currentDate.setDate(today.getDate() + shift);
+  
+  const html = await getHtml( currentDateString(currentDate) );
+  const weatherInfo = getWeatherInfoOnDay(html);
+  const weatherString = getWeatherString(weatherInfo);
+  
+  let result = `📅 <u>Погода на: <b>${currentDate.toLocaleString('uk', dateOptions)}</b></u>`;
+  result += `\n\n${weatherString}`;
+  
+  return result;
 }
 
 class WeatherHandler {
@@ -19,7 +34,7 @@ class WeatherHandler {
           const weatherInfo = getWeatherInfoOnDay(html);
           const weatherString = getWeatherString(weatherInfo);
       
-          let result = `📅 <u>Погода сьогодні: <b>${new Date().toLocaleString('uk', dayDateOptions)}</b></u>`
+          let result = `📅 <u>Погода сьогодні: <b>${new Date().toLocaleString('uk', dateOptions)}</b></u>`
           result += `\n\n${weatherString}`;
       
           for (const user of users) {
@@ -43,7 +58,7 @@ class WeatherHandler {
         const weatherInfo = getWeatherInfoOnDay(html);
         const weatherString = getWeatherString(weatherInfo);
   
-        let result = `📅 Погода завтра: <b>${tomorrow.toLocaleString('uk', dayDateOptions)}</b>`
+        let result = `📅 Погода завтра: <b>${tomorrow.toLocaleString('uk', dateOptions)}</b>`
         result += `\n\n${weatherString}`;
   
         for (const user of users) {
@@ -59,10 +74,10 @@ class WeatherHandler {
   async now(ctx) {
     try {
       const html = await getHtml( currentDateString() );
-  
+      
       const weatherInfo = getWeatherNow(html);
   
-      let result = `📅 Погода зараз: ${new Date().toLocaleString('uk', nowDateOptions)} на ${weatherInfo.time}
+      let result = `📅 Погода зараз: ${new Date().toLocaleString('uk', dateOptions)} на ${weatherInfo.time}
     \n🌡 Температура: ${weatherInfo.temperature}, відчувається як ${weatherInfo.temperatureSens}
     \n⏲ Тиск: ${weatherInfo.pressure}
     \n💧 Вологість: ${weatherInfo.humidity}
@@ -76,13 +91,8 @@ class WeatherHandler {
   
   async today(ctx) {
     try {
-      const html = await getHtml( currentDateString() );
-      const weatherInfo = getWeatherInfoOnDay(html);
-      const weatherString = getWeatherString(weatherInfo);
-  
-      let result = `<u>Погода сьогодні: 📅<b>${new Date().toLocaleString('uk', dayDateOptions)}</b></u>`
-      result += `\n\n${weatherString}`;
-  
+      const result = await getForOneDay();
+      
       await ctx.replyWithHTML(result);
     } catch (e) {
       console.log(e);
@@ -92,15 +102,7 @@ class WeatherHandler {
   async tomorrow(ctx) {
     try {
       const today = new Date();
-      const tomorrow = new Date(today);
-      tomorrow.setDate(tomorrow.getDate() + 1);
-  
-      const html = await getHtml( currentDateString(tomorrow) );
-      const weatherInfo = getWeatherInfoOnDay(html);
-      const weatherString = getWeatherString(weatherInfo);
-  
-      let result = `📅 Погода завтра: <b>${tomorrow.toLocaleString('uk', dayDateOptions)}</b>`
-      result += `\n\n${weatherString}`;
+      const result = await getForOneDay(1, today);
   
       await ctx.replyWithHTML(result);
     } catch (e) {
@@ -113,17 +115,9 @@ class WeatherHandler {
       const today = new Date();
   
       for (let i = 0; i < 3; i++) {
-        const currentDate = new Date(today);
-        currentDate.setDate(today.getDate() + i);
-    
-        const html = await getHtml( currentDateString(currentDate) );
-        const weatherInfo = getWeatherInfoOnDay(html);
-        const weatherString = getWeatherString(weatherInfo);
-    
-        let result = `📅 <u>Погода на: <b>${currentDate.toLocaleString('uk', dayDateOptions)}</b></u>`;
-        result += `\n\n${weatherString}`;
-    
-        await ctx.replyWithHTML(result);
+       const result = await getForOneDay(i, today);
+       
+       await ctx.replyWithHTML(result);
       }
     } catch (e) {
       console.log(e);
@@ -135,15 +129,7 @@ class WeatherHandler {
       const today = new Date();
   
       for (let i = 0; i < 7; i++) {
-        const currentDate = new Date(today);
-        currentDate.setDate(today.getDate() + i);
-    
-        const html = await getHtml( currentDateString(currentDate) );
-        const weatherInfo = getWeatherInfoOnDay(html);
-        const weatherString = getWeatherString(weatherInfo);
-    
-        let result = `<u>📅 Погода на: <b>${currentDate.toLocaleString('uk', dayDateOptions)}</b></u>`;
-        result += `\n\n${weatherString}`;
+        const result = await getForOneDay(i, today);
     
         await ctx.replyWithHTML(result);
       }
@@ -157,20 +143,12 @@ class WeatherHandler {
       const today = new Date();
   
       for (let i = 0; i < 10; i++) {
-        const currentDate = new Date(today);
-        currentDate.setDate(today.getDate() + i);
-    
-        const html = await getHtml( currentDateString(currentDate) );
-        const weatherInfo = getWeatherInfoOnDay(html);
-        const weatherString = getWeatherString(weatherInfo);
-    
-        let result = `📅 <u>Погода на: <b> ${currentDate.toLocaleString('uk', dayDateOptions)}</b></u>`;
-        result += `\n\n${weatherString}`;
+        const result = await getForOneDay(i, today);
     
         await ctx.replyWithHTML(result);
       }
     } catch (e) {
-     console.log(e);
+      console.log(e);
     }
   }
 }
