@@ -7,8 +7,8 @@
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Oleksii Bubenko",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.27.2",
     "dotenv": "^16.0.1",

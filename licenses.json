@@ -1,0 +1,521 @@
+{
+  "abbrev@1.1.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/abbrev-js",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\abbrev",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\abbrev\\LICENSE"
+  },
+  "abort-controller@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mysticatea/abort-controller",
+    "publisher": "Toru Nagashima",
+    "url": "https://github.com/mysticatea",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\abort-controller",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\abort-controller\\LICENSE"
+  },
+  "anymatch@3.1.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/micromatch/anymatch",
+    "publisher": "Elan Shanker",
+    "url": "https://github.com/es128",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\anymatch",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\anymatch\\LICENSE"
+  },
+  "asynckit@0.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/alexindigo/asynckit",
+    "publisher": "Alex Indigo",
+    "email": "iam@alexindigo.com",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\asynckit",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\asynckit\\LICENSE"
+  },
+  "axios@0.27.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/axios/axios",
+    "publisher": "Matt Zabriskie",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\axios",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\axios\\LICENSE"
+  },
+  "balanced-match@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/balanced-match",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\balanced-match",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\balanced-match\\LICENSE.md"
+  },
+  "binary-extensions@2.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/binary-extensions",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\binary-extensions",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\binary-extensions\\license"
+  },
+  "brace-expansion@1.1.11": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/brace-expansion",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\brace-expansion",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\brace-expansion\\LICENSE"
+  },
+  "braces@3.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/braces",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\braces",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\braces\\LICENSE"
+  },
+  "buffer-alloc-unsafe@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/LinusU/buffer-alloc-unsafe",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\buffer-alloc-unsafe",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\buffer-alloc-unsafe\\readme.md"
+  },
+  "buffer-alloc@1.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/LinusU/buffer-alloc",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\buffer-alloc",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\buffer-alloc\\readme.md"
+  },
+  "buffer-fill@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/LinusU/buffer-fill",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\buffer-fill",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\buffer-fill\\readme.md"
+  },
+  "chokidar@3.5.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/paulmillr/chokidar",
+    "publisher": "Paul Miller",
+    "url": "https://paulmillr.com",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\chokidar",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\chokidar\\LICENSE"
+  },
+  "combined-stream@1.0.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/felixge/node-combined-stream",
+    "publisher": "Felix Geisendörfer",
+    "email": "felix@debuggable.com",
+    "url": "http://debuggable.com/",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\combined-stream",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\combined-stream\\License"
+  },
+  "concat-map@0.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/node-concat-map",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\concat-map",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\concat-map\\LICENSE"
+  },
+  "debug@3.2.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/visionmedia/debug",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\nodemon\\node_modules\\debug",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\nodemon\\node_modules\\debug\\LICENSE"
+  },
+  "debug@4.3.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/debug-js/debug",
+    "publisher": "Josh Junon",
+    "email": "josh.junon@protonmail.com",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\debug",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\debug\\LICENSE"
+  },
+  "delayed-stream@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/felixge/node-delayed-stream",
+    "publisher": "Felix Geisendörfer",
+    "email": "felix@debuggable.com",
+    "url": "http://debuggable.com/",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\delayed-stream",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\delayed-stream\\License"
+  },
+  "dotenv@16.0.1": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/motdotla/dotenv",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\dotenv",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\dotenv\\LICENSE"
+  },
+  "event-target-shim@5.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mysticatea/event-target-shim",
+    "publisher": "Toru Nagashima",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\event-target-shim",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\event-target-shim\\LICENSE"
+  },
+  "fill-range@7.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/fill-range",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\fill-range",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\fill-range\\LICENSE"
+  },
+  "follow-redirects@1.15.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/follow-redirects/follow-redirects",
+    "publisher": "Ruben Verborgh",
+    "email": "ruben@verborgh.org",
+    "url": "https://ruben.verborgh.org/",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\follow-redirects",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\follow-redirects\\LICENSE"
+  },
+  "form-data@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/form-data/form-data",
+    "publisher": "Felix Geisendörfer",
+    "email": "felix@debuggable.com",
+    "url": "http://debuggable.com/",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\form-data",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\form-data\\License"
+  },
+  "glob-parent@5.1.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/gulpjs/glob-parent",
+    "publisher": "Gulp Team",
+    "email": "team@gulpjs.com",
+    "url": "https://gulpjs.com/",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\glob-parent",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\glob-parent\\LICENSE"
+  },
+  "has-flag@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/has-flag",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\has-flag",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\has-flag\\license"
+  },
+  "htmlparser@1.7.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tautologistics/node-htmlparser",
+    "publisher": "Chris Winberry",
+    "email": "chris@winberry.net",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\htmlparser",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\htmlparser\\LICENSE"
+  },
+  "ignore-by-default@1.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/novemberborn/ignore-by-default",
+    "publisher": "Mark Wubben",
+    "url": "https://novemberborn.net/",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\ignore-by-default",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\ignore-by-default\\LICENSE"
+  },
+  "inherits@2.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/inherits",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\inherits",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\inherits\\LICENSE"
+  },
+  "is-binary-path@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-binary-path",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\is-binary-path",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\is-binary-path\\license"
+  },
+  "is-extglob@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-extglob",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\is-extglob",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\is-extglob\\LICENSE"
+  },
+  "is-glob@4.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/is-glob",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\is-glob",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\is-glob\\LICENSE"
+  },
+  "is-number@7.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-number",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\is-number",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\is-number\\LICENSE"
+  },
+  "jssoup@0.0.15": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chishui/JSSoup",
+    "publisher": "Liyun Xiu",
+    "email": "chishui2@gmail.com",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\jssoup",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\jssoup\\README.md"
+  },
+  "maidanweather@1.0.0": {
+    "licenses": "ISC",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot"
+  },
+  "mime-db@1.52.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jshttp/mime-db",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\mime-db",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\mime-db\\LICENSE"
+  },
+  "mime-types@2.1.35": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jshttp/mime-types",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\mime-types",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\mime-types\\LICENSE"
+  },
+  "minimatch@3.1.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minimatch",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\minimatch",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\minimatch\\LICENSE"
+  },
+  "minimist@1.2.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/minimist",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\minimist",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\minimist\\LICENSE"
+  },
+  "module-alias@2.2.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ilearnio/module-alias",
+    "publisher": "Nick Gavrilov",
+    "email": "artnikpro@gmail.com",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\module-alias",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\module-alias\\LICENSE"
+  },
+  "ms@2.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zeit/ms",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\ms",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\ms\\license.md"
+  },
+  "node-cron@3.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/merencia/node-cron",
+    "publisher": "Lucas Merencia",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\node-cron",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\node-cron\\LICENSE.md"
+  },
+  "node-fetch@2.6.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/bitinn/node-fetch",
+    "publisher": "David Frank",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\node-fetch",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\node-fetch\\LICENSE.md"
+  },
+  "nodemon@2.0.19": {
+    "licenses": "MIT",
+    "repository": "https://github.com/remy/nodemon",
+    "publisher": "Remy Sharp",
+    "url": "https://github.com/remy",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\nodemon",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\nodemon\\LICENSE"
+  },
+  "nopt@1.0.10": {
+    "licenses": "MIT",
+    "repository": "https://github.com/isaacs/nopt",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\nopt",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\nopt\\LICENSE"
+  },
+  "normalize-path@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/normalize-path",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\normalize-path",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\normalize-path\\LICENSE"
+  },
+  "p-timeout@4.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-timeout",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\p-timeout",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\p-timeout\\license"
+  },
+  "path@0.12.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jinder/path",
+    "publisher": "Joyent",
+    "url": "http://www.joyent.com",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\path",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\path\\LICENSE"
+  },
+  "picomatch@2.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/picomatch",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\picomatch",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\picomatch\\LICENSE"
+  },
+  "process@0.11.10": {
+    "licenses": "MIT",
+    "repository": "https://github.com/shtylman/node-process",
+    "publisher": "Roman Shtylman",
+    "email": "shtylman@gmail.com",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\process",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\process\\LICENSE"
+  },
+  "pstree.remy@1.1.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/remy/pstree",
+    "publisher": "Remy Sharp",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\pstree.remy",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\pstree.remy\\LICENSE"
+  },
+  "readdirp@3.6.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/paulmillr/readdirp",
+    "publisher": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "thlorenz.com",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\readdirp",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\readdirp\\LICENSE"
+  },
+  "safe-compare@1.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Bruce17/safe-compare",
+    "publisher": "Michael Raith",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\safe-compare",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\safe-compare\\LICENSE"
+  },
+  "sandwich-stream@2.0.2": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/connrs/node-sandwich-stream",
+    "publisher": "connrs",
+    "url": "https://connrs.uk/",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\sandwich-stream",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\sandwich-stream\\LICENCE"
+  },
+  "semver@5.7.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\semver",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\semver\\LICENSE"
+  },
+  "semver@7.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\simple-update-notifier\\node_modules\\semver",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\simple-update-notifier\\node_modules\\semver\\LICENSE"
+  },
+  "simple-update-notifier@1.0.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/alexbrazier/simple-update-notifier",
+    "publisher": "alexbrazier",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\simple-update-notifier",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\simple-update-notifier\\LICENSE"
+  },
+  "supports-color@5.5.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/supports-color",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\supports-color",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\supports-color\\license"
+  },
+  "telegraf@4.8.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/telegraf/telegraf",
+    "publisher": "Vitaly Domnikov",
+    "email": "oss@vitaly.codes",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\telegraf",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\telegraf\\LICENSE"
+  },
+  "to-regex-range@5.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/to-regex-range",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\to-regex-range",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\to-regex-range\\LICENSE"
+  },
+  "touch@3.1.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-touch",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\touch",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\touch\\LICENSE"
+  },
+  "tr46@0.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Sebmaster/tr46.js",
+    "publisher": "Sebastian Mayr",
+    "email": "npm@smayr.name",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\tr46"
+  },
+  "typegram@3.10.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/KnorpelSenf/typegram",
+    "publisher": "KnorpelSenf",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\typegram",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\typegram\\LICENSE"
+  },
+  "undefsafe@2.0.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/remy/undefsafe",
+    "publisher": "Remy Sharp",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\undefsafe",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\undefsafe\\LICENSE"
+  },
+  "util@0.10.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/defunctzombie/node-util",
+    "publisher": "Joyent",
+    "url": "http://www.joyent.com",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\util",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\util\\LICENSE"
+  },
+  "uuid@8.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/uuidjs/uuid",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\uuid",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\uuid\\LICENSE.md"
+  },
+  "webidl-conversions@3.0.1": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/jsdom/webidl-conversions",
+    "publisher": "Domenic Denicola",
+    "email": "d@domenic.me",
+    "url": "https://domenic.me/",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\webidl-conversions",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\webidl-conversions\\LICENSE.md"
+  },
+  "whatwg-url@5.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jsdom/whatwg-url",
+    "publisher": "Sebastian Mayr",
+    "email": "github@smayr.name",
+    "path": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\whatwg-url",
+    "licenseFile": "C:\\__My\\__6-SEM\\Standart\\Lab1\\weatherbot\\node_modules\\whatwg-url\\LICENSE.txt"
+  }
+}
