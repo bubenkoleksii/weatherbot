@@ -1,4 +1,5 @@
 LICENSE: MIT
+URL: https://github.com/bubenkoleksii/weatherbot/blob/master/licenses.json
 
 Copyright (C) 2023 Oleksii Bubenko
 
